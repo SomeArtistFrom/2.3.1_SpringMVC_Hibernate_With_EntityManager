@@ -1,4 +1,4 @@
-package main.java.web.dao;
+package web.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

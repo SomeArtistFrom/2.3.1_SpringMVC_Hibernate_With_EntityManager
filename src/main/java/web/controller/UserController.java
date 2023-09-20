@@ -1,4 +1,4 @@
-package main.java.web.controller;
+package web.controller;
 
 import javax.validation.Valid;
 

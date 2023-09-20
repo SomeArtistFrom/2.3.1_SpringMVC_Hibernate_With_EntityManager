@@ -1,4 +1,4 @@
-package main.java.web.model;
+package web.model;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
