@@ -1,12 +1,11 @@
 package web.model;
 
+import jakarta.persistence.*;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
-import org.springframework.validation.annotation.Validated;
 
-import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
