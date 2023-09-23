@@ -6,7 +6,6 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 
-
 @Entity
 @Table(name = "users")
 public class User {
@@ -17,11 +16,11 @@ public class User {
     private int id;
 
     @NotEmpty(message = "name should not be empty")
-    @Size(min = 2, max = 25, message = "name should be > 2 and < 28 char")
+    @Size(min = 2, max = 30, message = "name should be > 2 and < 30 char")
     @Column(name = "name")
     private String name;
 
-    @Min(value = 0, message = "you need > 0 years")
+    @Min(value = 14, message = "you need > 14 years")
     @Max(value = 150, message = "you need < 150 years")
     @Column(name = "age")
     private int age;
